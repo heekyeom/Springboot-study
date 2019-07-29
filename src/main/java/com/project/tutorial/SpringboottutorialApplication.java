@@ -14,8 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringboottutorialApplication {
 
 	public static void main(String[] args) {
+		SpringApplication.run(SpringboottutorialApplication.class, args);
 		SpringApplication application = new SpringApplication(SpringboottutorialApplication.class);
-		application.addListeners(new AppStartingSampleListener());
+//		application.addListeners(new AppStartingSampleListener());
 		System.out.println("start spring boot tutorial");
 		application.run(args);
 	}

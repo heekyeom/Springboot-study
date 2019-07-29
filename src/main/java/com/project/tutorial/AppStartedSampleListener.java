@@ -13,5 +13,5 @@ public class AppStartedSampleListener implements ApplicationListener<Application
 		System.out.println("spring started event");
 		System.out.println("==========================");
 	}
-
+	
 }
