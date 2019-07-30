@@ -10,16 +10,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class SpringboottutorialApplication {
 
 	public static void main(String[] args) {
 //		SpringApplication.run(SpringboottutorialApplication.class, args);
 		SpringApplication application = new SpringApplication(SpringboottutorialApplication.class);
-		application.addListeners(new AppStartingSampleListener());
+//		application.addListeners(new AppStartingSampleListener());
 //		System.out.println("start spring boot tutorial");
 		application.run(args);
-		System.out.println("start spring boot tutorial");
+//		System.out.println("start spring boot tutorial");
 
 	}
 

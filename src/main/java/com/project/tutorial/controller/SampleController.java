@@ -8,12 +8,12 @@ import com.project.tutorial.service.SampleService;
 
 @RestController
 public class SampleController {
-	
-	@Autowired
-	SampleService sample_service;
-	
-	@GetMapping("/hello")
-	public String hello() {
-		return sample_service.getHello();
-	}
+//	
+//	@Autowired
+//	SampleService sample_service;
+//	
+//	@GetMapping("/hello")
+//	public String hello() {
+//		return sample_service.getHello();
+//	}
 }
